@@ -19,18 +19,22 @@ You need to install these in your machine (Node.js, MongoDB, and MongoDB Compass
     HTTP: POST
     URL: http://localhost:5000/api/search/drivers
     Request body: raw -> JSON
-    Then you can use this model of code to get the nearest driver
+    Then you can use this model of code below to get the nearest driver
 
+```bash
 {
-  "customerName": "Mohmed Ishak",
+  "customerName": "Sofia",
   "customerLocation": {
-    "x": 8,
-    "y": 4
+    "x": 14,
+    "y": 2
   },
   "customerDestination": {
-  "x": 4,
-  "y": 5
+  "x": 3,
+  "y": 9
   },
-  "customerGuestCount": 2
+  "customerGuestCount": 4
 }
+```
+
+![Amran Hussein](https://user-images.githubusercontent.com/78696359/140646572-45448e3d-9582-4a29-af44-01243e5a6f65.PNG)
 

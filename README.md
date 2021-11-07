@@ -12,9 +12,9 @@ API built using Node.js, Express.js, and MongoDB for online assessment of my int
 
 ### **Here How to Run The API Project**
 
-You need to install these in your machine (Node.js, MongoDB, and MongoDB Compass) and you will need a post man or something similar to it to test and send the API.
+You need to install these in your machine (Node.js, MongoDB, and MongoDB Compass) and you will need a post man or something similar to it to test and send API in localhost. 
 
-### **Here How to Check for the Nearest Driver**
+### **Here How to Check for the Nearest Driver and send API**
 
     HTTP: POST
     URL: http://localhost:5000/api/search/drivers
